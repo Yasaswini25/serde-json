@@ -1,7 +1,7 @@
 {
   "name": "serde-json",
   "version": "0.1.0",
-  "description": "A weird JSON serializer-deserializer which, idk, does smth (obv without using JavaScript's JSON methods) to convert JSON to-fro it's wired representation.",
+  "description": " ",
   "main": "index.ts",
   "scripts": {
     "format": "prettier . --write",
@@ -43,5 +43,8 @@
     "prettier": "^3.1.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
-  }
+  },
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com"
+}
 }
